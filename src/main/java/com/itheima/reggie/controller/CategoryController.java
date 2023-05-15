@@ -34,7 +34,7 @@ public class CategoryController {
     public R<String> save( @RequestBody Category category){
         log.info("category:{}",category);
         categoryService.save(category);
-        String a = "fdsf ";
+        String a = "fdsf风格的观点是广东省 ";
         return  R.success("新增分类成功");
 
     }
